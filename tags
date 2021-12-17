@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOUNDS_KEY	shell/utils/settings.js	/^const BOUNDS_KEY = 'windowBounds';$/;"	V
+INSTALLATION_ID_KEY	shell/utils/settings.js	/^const INSTALLATION_ID_KEY = 'installationId';$/;"	V
+SHORTCUT_KEY	shell/utils/settings.js	/^const SHORTCUT_KEY = 'globalShortcut';$/;"	V
+accelerator	shell/utils/switchTask.js	/^const accelerator = 'CommandOrControl+`';$/;"	V
+afterCopy	bin/electron-package.js	/^  afterCopy: [setLanguages(['en', 'en_GB'])],$/;"	P
+appVersion	bin/electron-package.js	/^  appVersion: version,$/;"	P
+autoUpdateEvent	shell/utils/autoupdate.js	/^function autoUpdateEvent(message) {$/;"	F
+autoUpdateRequest	shell/utils/autoupdate.js	/^  function autoUpdateRequest() {$/;"	F
+browserWindow	shell/main.js	/^  browserWindow: {$/;"	P
+buttons	shell/utils/autoupdate.js	/^      buttons: ['Restart', 'Later'],$/;"	P
+distPath	bin/electron-package.js	/^const distPath = '.\/dist';$/;"	V
+enableRemoteModule	shell/main.js	/^      enableRemoteModule: true$/;"	P
+exports	app/jest.config.js	/^module.exports = {$/;"	P
+exports	app/tests/styleMock.js	/^module.exports = {};$/;"	P
+exports	shell/utils/settings.js	/^module.exports = {$/;"	P
+exports	shell/utils/switchTask.js	/^module.exports = {$/;"	P
+getInstallationId	shell/utils/settings.js	/^  async getInstallationId() {$/;"	M
+handler	shell/utils/settings.js	/^    const handler = _.debounce(() => {$/;"	F
+headers	shell/utils/autoupdate.js	/^    headers: {$/;"	P
+height	shell/main.js	/^    height: 600,$/;"	P
+maxHeight	shell/main.js	/^    maxHeight: 900,$/;"	P
+menubar	shell/main.js	/^const { menubar } = require('menubar');$/;"	V
+minHeight	shell/main.js	/^    minHeight: 600,$/;"	P
+minWidth	shell/main.js	/^    minWidth: 300,$/;"	P
+moduleNameMapper	app/jest.config.js	/^  moduleNameMapper: {$/;"	P
+name	bin/electron-package.js	/^  name,$/;"	V
+name	bin/electron-package.js	/^const name = 'FocusedTask';$/;"	V
+nodeIntegration	shell/main.js	/^      nodeIntegration: true,$/;"	P
+openExternal	shell/main.js	/^  const openExternal = (e, url) => {$/;"	F
+osxSign	bin/electron-package.js	/^  osxSign: {$/;"	P
+out	bin/electron-package.js	/^  out: distPath,$/;"	P
+overwrite	bin/electron-package.js	/^  overwrite: true,$/;"	P
+register	shell/utils/switchTask.js	/^  register(mb) {$/;"	M
+scrollBounce	shell/main.js	/^      scrollBounce: true,$/;"	P
+setGlobalShortcut	shell/utils/settings.js	/^  async setGlobalShortcut(menubar) {$/;"	M
+setWindowBounds	shell/utils/settings.js	/^  async setWindowBounds(menubar) {$/;"	M
+setupFiles	app/jest.config.js	/^  setupFiles: ['<rootDir>\/tests\/setup.js'],$/;"	P
+slashes	shell/main.js	/^      slashes: true,$/;"	P
+trackWindowBounds	shell/utils/settings.js	/^  trackWindowBounds(menubar) {$/;"	M
+transform	app/jest.config.js	/^  transform: { '^.+\\\\.tsx?$': 'ts-jest' },$/;"	P
+updateGlobalShortcutKey	shell/utils/settings.js	/^  updateGlobalShortcutKey(menubar, key) {$/;"	M
+webPreferences	shell/main.js	/^    webPreferences: {$/;"	P
+width	shell/main.js	/^    width: 500,$/;"	P

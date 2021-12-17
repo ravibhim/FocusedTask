@@ -27,6 +27,7 @@ const mb = menubar({
     webPreferences: {
       nodeIntegration: true,
       scrollBounce: true,
+      enableRemoteModule: true
     },
   },
 });
